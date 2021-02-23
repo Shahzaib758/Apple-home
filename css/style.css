@@ -1,0 +1,270 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+.d-w-12 {
+    width: 100%;
+}
+.d-w-6 {
+    width: 45%;
+}
+
+div.main {
+    max-width: 1200px;
+    margin: auto;
+}
+
+div.header {
+    display: flex;
+    flex-direction: column;
+}
+div.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+div.navbar > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    background-color: #323233;
+    height: 42px;
+}
+
+div.navbar > ul >li >a {
+    height: 100%;
+    text-decoration: none;
+    color: rgba(245, 245, 245, 0.452);
+    font-size: 0.94em;
+}
+
+div.navbar > ul >li >a:hover {
+    text-decoration: underline;
+    color: rgba(245, 245, 245, 0.652);
+}
+
+div.navbar > ul >li > img#logo-1 {
+    width: 25px;
+    height: 40px;
+    filter: invert(30%);
+    position: relative;
+    top: 4px;
+}
+div.navbar > ul >li > img#logo-2 {
+    width: 25px;
+    height: 30px;
+    filter: invert(1%);
+    position: relative;
+    top: 3px;
+}
+div.navbar > ul >li > img#logo-3 {
+    width: 19px;
+    height: 40px;
+    filter: invert(30%);
+    position: relative;
+    top: 3px;
+}
+div.covid-massage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 42px;
+    color: whitesmoke;
+    background-color: #0071E3;
+}
+div.covid-massage > p > a {
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 0.94em;
+}
+div.online-shopping {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 42px;
+    background-color: #f5f5f7;
+    color: #323233;
+}
+
+div.online-shopping > p > a {
+    color: #0071E3;
+    text-decoration: none;
+    font-size: 0.94em;
+}
+
+div.covid-massage > p > a:hover ,
+div.online-shopping > p > a:hover {
+    text-decoration: underline;
+}
+.products {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left: 0%;
+    bottom: 0%;
+    margin-bottom: 15px;
+
+}
+
+.iphone-12 > h1 {
+    margin-top: 30px;
+    font-size: 2.5em;
+    color: #323233;
+}
+.iphone-12 > h2 {
+    margin: 3px;
+    color: #323233;
+}
+.iphone-12::after{
+    content: "";
+    background-image: url(../images/iphone-12.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    z-index: -1;
+    height: 100%;
+}
+.iphone-12-pro > h1 {
+    margin-top: 30px;
+    font-size: 2.5em;
+    color: #f5f5f7;
+}
+.iphone-12-pro > h2 {
+    margin: 3px;
+    color: #f5f5f7;
+}
+.iphone-12-pro > p {
+    margin: 3px;
+    color: #f5f5f75d;
+}
+.iphone-12-pro::after{
+    content: "";
+    background-image: url(../images/iphone_12_pro_us__e5oyysg4k0ya_largetall.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    z-index: -1;
+    height: 100%;
+}
+.ipad-air > h1 {
+    margin-top: 30px;
+    font-size: 2.5em;
+    color: #323233;
+}
+.ipad-air > h2 {
+    margin: 3px;
+    color: #323233;
+    font-weight: lighter;
+}
+.ipad-air {
+    background-color: #fbfbfd;
+    z-index: -1;
+}
+.ipad-air::after{
+    content: "";
+    background-image: url(../images/ipad-air.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+    bottom: 0%;
+    z-index: -1;
+    height: 70%;
+}
+
+.services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 450px;
+    margin-bottom: 14px;
+}
+
+.service-1 {
+    background-image: url(../images/download=.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.service-2 {
+    background-image: url(../images/downoad.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.service-3 {
+    background-image: url(../images/Watches.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service-4 {
+    background-image: url(../images/Services.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-position-y: 210px;
+    background-position-x: 30px;
+}
+
+.service-5 {
+    background-image: url(../images/Fun.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service-6 {
+    background-image: url(../images/ManKind.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.service-1 > h1 ,
+.service-2 > h1 ,
+.service-5 > h1 ,
+.service-6 > h1 {
+    margin-top: 30px;
+    font-size: 2.2em;
+    text-align: center;
+    color: white;
+}
+
+
+.service-1 > h2 ,
+.service-2 > h2 ,
+.service-5 > h2 {
+    margin-top: 30px;
+    font-size: 1.em;
+    text-align: center;
+    color: white;
+}
+
+.service-3 > h1 ,
+.service-4 > h1 {
+    margin-top: 30px;
+    font-size: 2.2em;
+    text-align: center;
+    color: #323233;
+
+}
+
+.service-3 > h2 ,
+.service-4 > h2 {
+    margin-top: 30px;
+    font-size: 1.em;
+    text-align: center;
+    color: #323233;
+}
+
+
+ 
